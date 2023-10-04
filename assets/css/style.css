@@ -1,0 +1,28 @@
+
+/* 
+Primary Color: #3d5a80
+Secondary Color: #ee6c4d
+Light Blue Color: #f0f6ff
+Semi-Blue: #98c1d9
+Dark Blue: #293241
+ */
+
+ /* Add root variables */
+ :root {
+    --color-primary: #3d5a80;
+    --color-secondary: #ee6c4d;
+    --color-light-blue: #f0f6ff;
+    --color-semi-blue: #98c1d9;
+    --color-dark-blue: #293241;
+
+    --font-primary: 'Rubik', sans-serif;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
+.bg{
+    background-color:var(--color-dark-blue);
+}
